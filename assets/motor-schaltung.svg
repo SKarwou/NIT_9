@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" role="img" aria-labelledby="title desc">
+<title id="title">Motorzweig mit TIP120 und Freilaufdiode</title>
+<desc id="desc">Motor zwischen Plus der passenden Versorgung und Kollektor. Emitter am gemeinsamen GND. Pin 3 über Basiswiderstand an Basis. Diode parallel zum Motor mit Kathode an Plus.</desc>
+<rect width="1000" height="640" rx="14" fill="#fff"/>
+<g font-family="Arial,sans-serif" fill="#142440" font-size="24">
+<text x="480" y="45" font-weight="bold">Passende Motorversorgung +</text>
+<text x="65" y="105" font-weight="bold">Arduino Uno R3</text>
+<rect x="45" y="125" width="240" height="325" rx="10" fill="#edf5f7" stroke="#52647d" stroke-width="3"/>
+<text x="65" y="285">PWM-Pin 3</text><text x="65" y="425">GND</text>
+<path d="M285 280H330l10 -12 16 24 16 -24 16 24 16 -24 16 24 10 -12H485" fill="none" stroke="#00796f" stroke-width="4"/>
+<text x="300" y="238" font-size="22">Basiswiderstand</text>
+<text x="325" y="322" font-size="20">R_B freigegeben</text>
+<rect x="485" y="245" width="235" height="195" rx="10" fill="#f4f6fb" stroke="#52647d" stroke-width="3"/>
+<text x="505" y="286" font-weight="bold">B</text><text x="652" y="278" font-weight="bold">C</text>
+<text x="652" y="420" font-weight="bold">E</text><text x="527" y="355" font-weight="bold">TIP120</text>
+<path d="M660 70V115M660 215V245M660 440V530H285V420M660 530H870" fill="none" stroke="#142440" stroke-width="4"/>
+<circle cx="660" cy="165" r="50" fill="#fff" stroke="#142440" stroke-width="3"/>
+<text x="643" y="177" font-size="34">M</text><text x="500" y="172" font-size="22">DC-Motor</text>
+<path d="M660 70H870V115M660 228H870V215" fill="none" stroke="#142440" stroke-width="4"/>
+<rect x="830" y="115" width="80" height="100" rx="5" fill="#fff4e7" stroke="#a06d2a" stroke-width="3"/>
+<text x="847" y="147" font-weight="bold">K</text><path d="M838 157H902" stroke="#a06d2a" stroke-width="4"/>
+<text x="847" y="199" font-weight="bold">A</text>
+<text x="752" y="95" font-size="20">Kathode an Plus</text><text x="740" y="260" font-size="20">Freilaufdiode</text>
+<path d="M660 530V553M635 553H685M644 567H676M653 581H667" fill="none" stroke="#142440" stroke-width="3"/>
+<text x="65" y="525" font-size="22">Gemeinsamer GND</text>
+<text x="714" y="520" font-size="20">Motorversorgung −</text>
+<text x="65" y="617" font-size="22">Prinzipschaltung: Bauteilwerte, Pinfolge und Versorgung vor dem Aufbau prüfen.</text>
+</g><g fill="#142440"><circle cx="660" cy="70" r="5"/><circle cx="660" cy="228" r="5"/><circle cx="660" cy="530" r="5"/></g>
+</svg>

@@ -9,6 +9,7 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <script src="course.js" defer></script>
+  <script src="course-extra.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -25,11 +26,11 @@
       <header class="topbar">
         <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="sidebar">Kapitel</button>
         <div class="course-label"><span class="tiny-square" aria-hidden="true"></span> Technik selbst verstehen</div>
-        <nav aria-label="Ansichten"><a href="#/lernen" id="learn-link">Lernpfad</a><a href="#/material">Material</a><a href="#/heft">Mein Lernheft</a></nav>
+        <nav aria-label="Ansichten"><a href="#/lernen" id="learn-link">Lernpfad</a><a href="#/material">Material</a><a href="#/heft">Dein Heft</a></nav>
       </header>
       <div class="storage-notice" id="storage-notice" hidden></div>
       <main id="main" tabindex="-1"></main>
-      <footer class="page-footer"><span>NwT · Klasse 9</span><span id="save-status" role="status">Deine Antworten bleiben auf diesem Gerät.</span></footer>
+      <footer class="page-footer"><span>NwT · Klasse 9</span><span id="save-status" role="status">Schriftliche Antworten gehören ins Heft.</span></footer>
     </div>
   </div>
   <div class="toast" id="toast" role="status" hidden></div>

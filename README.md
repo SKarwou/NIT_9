@@ -1,58 +1,66 @@
 # NwT Lernlabor Klasse 9
 
-Ein schülergerechter Lernpfad zur Seifenblasenmaschine mit 9 Kapiteln und 50 Lernschritten. Die Inhalte beruhen auf den bereitgestellten Unterrichtsfolien und Arbeitsblättern.
+Ein schülergerechter Lernpfad zur Seifenblasenmaschine mit **11 Kapiteln und 86 Lernschritten**. Grundlage sind die bereitgestellten Folien, Arbeitsblätter und Quiztabellen. Ergänzungsstand: 8. Oktober 2026.
 
-## Website lokal ansehen
+Die Website ist unter **https://skarwou.github.io/NIT_9/** erreichbar, sobald die Dateien dieser Fassung auf dem von GitHub Pages veröffentlichten Branch liegen.
 
-Das ZIP entpacken und `index.html` im Browser öffnen. Die Dateien und Ordner zusammen lassen, damit Bilder, Arbeitsblätter und Programme erreichbar bleiben.
+## Handschriftliche Heftarbeit
 
-## Website veröffentlichen
+Alle schriftlichen Aufgaben werden im physischen Heft bearbeitet. Jeder Aufgabenblock fordert aktiv zum Schreiben auf und gibt eine eindeutige Überschrift vor. Datum, nummerierte Antworten, beschriftete Zeichnungen, Rechenwege und Versuchstabellen gehören ins Heft. Es gibt keine freien Antwort-Textfelder auf der Website. Auch die Befehlsübersicht wird im Heft ausgefüllt; die Vergleichstabelle kann anschließend geöffnet werden.
 
-Für GitHub die entpackten Dateien und Ordner in das Hauptverzeichnis von `NIT_9` hochladen. `index.html` muss direkt im Hauptverzeichnis liegen.
+Die Ansicht **Dein Heft** erklärt die Arbeitsweise, zeigt ein Inhaltsverzeichnis und eine Abgabe-Checkliste. Heftantworten werden durch die Website nicht bewertet oder automatisch abgegeben. Frühere digitale Heftantworten aus der ersten Fassung bleiben im selben Browser erhalten und können in einem ausdrücklich als frühere Eingaben bezeichneten Bereich heruntergeladen werden.
 
-In den Repository-Einstellungen unter **Pages** als Quelle **Deploy from a branch** wählen. Anschließend **main** und **/(root)** auswählen und speichern. Die Website besteht aus statischen Dateien und benötigt keinen Build und keine Zugangsdaten.
+## Lernen und Selbstchecks
 
-## Lernen und Arbeiten
+- Projektstart, Egg-Race und Zusammenarbeit
+- Technische Systeme, EVA und Energie-, Stoff- und Informationsströme
+- Arduino-Befehle und 11 Quizfragen mit Erklärungen
+- Drei-Stufen-Lampe mit Taster, PWM und Entprellung
+- Positionsservo, Pinvergleich und mechanische Zeigeranzeige
+- DC-Motor, Motorleistung, TIP120, Wasserventil-Modell und vollständiger Transistorzweig
+- Getriebearten, radiale und axiale Lagerung, Fest-/Loslager, Übersetzung und Drehmoment
+- Statik mit allen Aufgaben aus V4, Balkenmodell und 15 Quizfragen mit Erklärungen
+- Zwei Seifenblasenrezepte, vier Probebecher und dokumentierte Vergleichsversuche
+- Arbeitsplan, Meilensteine, kurze Teamsitzungen, Gesamttests und Abgabe
+- Alle acht Bereiche der technischen, Team- und persönlichen Reflexion
 
-- Projektstart und Egg-Race
-- Technische Systeme, EVA, Energie-, Stoff- und Informationsströme
-- Arduino-Wiederholung mit vollständiger Befehlsübersicht
-- Schreibtischlampe mit Taster, PWM und Entprellung
-- Servomotor und mechanische Helligkeitsanzeige
-- Motoransteuerung und Zahnradgetriebe
-- Statik mit sämtlichen Aufgaben des Arbeitsblatts
-- Seifenblasenversuche
-- Projektplanung, Gesamttests und Reflexion
+Interaktive Modelle zu Taster, PWM, Lampe, Servo, Getriebe und Balken bleiben erhalten. Zahlenfelder dienen ausschließlich überprüfbaren Selbstchecks: Mittelwertrechnung und Vergleich der Gesamttests mit den Projektkriterien. Die zugehörigen Rechnungen und Messprotokolle werden zuerst ins Heft geschrieben. Quizantworten können ohne Zeitlimit geprüft und verbessert werden; jede Frage hat eine fachliche Erklärung.
 
-Die Schüler können Antworten eingeben, einzelne Tipps und Vergleichslösungen öffnen, Selbstchecks bearbeiten und Schritte markieren. Interaktive Modelle zeigen Tasterzustand, PWM, Lampenstufen, Zeigerposition, Getriebeübersetzung und Balkendurchbiegung. Diagramme zu den Reißkraft-Messreihen lassen sich nach der eigenen Auswertung einblenden. Ein Kriterienprüfer vergleicht drei Gesamttests mit dem Projektauftrag.
+Unter **Material** stehen **21 PDFs** bereit. Das sind Arbeitsblätter, Vorlagen und Foliensätze. Doppeluploads wurden zusammengeführt; beide Quiztabellen sind als Website-Selbstchecks umgesetzt. Lehrer-Erwartungshorizonte, namentliche Gruppen- oder Sitzlisten und alte Projekttermine sind nicht in den öffentlichen Schülerfassungen enthalten. Die sechs Beispielprogramme liegen als `.ino` im Ordner `code`.
 
-Unter **Material** stehen 6 Arbeitsblätter beziehungsweise Checklisten und 4 Foliensätze als PDFs bereit. Die Arduino-Programme stehen zusätzlich im Ordner `code` als `.ino` zur Verfügung.
+## GitHub Pages und lokales Öffnen
 
-## Antworten und Datenschutz
+Die entpackten Dateien und Ordner gehören ins Hauptverzeichnis des Repositorys. `index.html` liegt direkt dort; `assets`, `material` und `code` bleiben zusammen mit den JavaScript- und CSS-Dateien erhalten. Die bestehende `.nojekyll` wird erhalten.
 
-Antworten und Fortschritt werden ausschließlich im lokalen Browser gespeichert. Es gibt kein Login, keine automatische Abgabe und keine Synchronisation zwischen Geräten. **Mein Lernheft** ermöglicht einen Textdownload und das Drucken beziehungsweise Speichern als PDF. Auf gemeinsam genutzten Geräten muss nach der Sicherung der persönliche Stand zurückgesetzt werden. Wenn der Browser die Speicherung blockiert, erscheint ein Hinweis.
+Die vorhandene Pages-Konfiguration **main / (root)** kann weiterverwendet werden. Es ist kein Build erforderlich. Zum lokalen Ansehen `index.html` im Browser öffnen oder das Verzeichnis mit einem einfachen statischen HTTP-Server bereitstellen. Alle eigenen Dateiverweise sind relativ und funktionieren auch unter dem GitHub-Projektpfad `/NIT_9/`.
 
-Die Website lädt keine externen Schriften, Videos, Analysewerkzeuge oder Programmbibliotheken. Externe Dokumentationslinks werden nur beim Anklicken geöffnet. Ein Sitzplan mit Schülernamen aus den Originalfolien und die Stundenverlaufspläne werden nicht veröffentlicht. Erwartungshorizonte sind aus den Schüler-Arbeitsblättern entfernt; Vergleichslösungen werden im Lernpfad bewusst geöffnet.
+## Fortschritt und frühere Eingaben
+
+Fortschritt, Quizantworten und Zahlen der Selbstchecks werden ausschließlich in diesem Browser gespeichert. Es gibt keinen Login, keine automatische Abgabe und keine Synchronisation zwischen Geräten. Auf gemeinsam genutzten Geräten kann der Stand unter **Dein Heft** zurückgesetzt werden. Die vorhandenen Kapitel- und Schritt-IDs sowie der bisherige Speichername bleiben erhalten; die Abfolge einiger Schritte wurde für den Arbeitsablauf angepasst.
+
+Die Website lädt keine externen Schriften, Videos, Analysewerkzeuge oder Programmbibliotheken. Externe Dokumentationslinks werden erst beim Anklicken geöffnet. Schriftliche Ergebnisse bleiben im Heft; die Lehrkraft vereinbart Kontrolle und Abgabe.
 
 ## Fachliche Präzisierungen
 
-- Die Arduino-Beispiele beziehen sich auf den **Uno R3**. `INPUT_PULLUP` mit Taster nach GND bedeutet **gedrückt = LOW**.
-- Die LED liegt an **Pin 5**, damit sie beim Einsatz der Servo-Bibliothek weiter gedimmt werden kann. Beim Uno R3 belegt die Bibliothek Timer 1; `analogWrite` an Pin 9 und 10 steht dann nicht für LED-PWM zur Verfügung. Das Servosignal kann auch über einen digitalen Pin ohne Hardware-PWM ausgegeben werden.
-- Ein Servo benötigt geeignete Versorgung und gemeinsamen GND. Ein zusätzlicher gewöhnlicher DC-Motortreiber ist für seinen Signalanschluss nicht erforderlich. DC-Motoren werden über geeignete Leistungselektronik versorgt und nicht direkt über einen Signalpin.
-- Die Angaben **1,0 N** und **265 N** im Statik-Arbeitsblatt werden unverändert übernommen und ausdrücklich als überprüfungsbedürftig behandelt. Keine vermutete Korrektur wird als bestätigter Messwert ausgegeben. Die Mittelwerte der Originalreihen lauten 6,90; 19,97; 106,50 und 29,90 N.
-- Die Durchbiegungsbeziehung `w ∝ l³ / (b · h³)` wird mit ihren Modellbedingungen erläutert. Die Spannweite wirkt darin kubisch.
-- Die Kickoff-Folien enthalten 20- und 30-Minuten-Varianten. Der Lernpfad erklärt diese Alternative.
-
-Motor-/Getriebegrundlagen und die Versuchsführung zu Seifenblasen ergänzen den in den Folien genannten Qualifizierungsbedarf. Sie sind nicht als zusätzliche hochgeladene Fachfolien ausgegeben. Für die tatsächliche Motorbeschaltung sind der freigegebene Schaltplan und die konkreten Schulbauteile erforderlich.
+- Beispiele gelten für den **Uno R3**. Taster nach GND mit `INPUT_PULLUP`: **gedrückt = LOW**.
+- Vereinheitlichte Anschlüsse: **LED 5, Taster 2, Servo-Signal 8, DC-Motor-Steuersignal 3**. Das alleinige Winkelbeispiel aus dem Arbeitsblatt nutzt zunächst Servo-Pin 10 und erklärt den Vergleich mit 8. Die Servo-Bibliothek beeinflusst am Uno R3 die normale PWM-Funktion an 9 und 10.
+- Ein Positionsservo benötigt geeignete Versorgung und gemeinsamen GND; keinen gewöhnlichen DC-Motortreiber für den Signalanschluss. Er wird nicht mit Gewalt von Hand verdreht oder blockiert.
+- Arduino nennt **20 mA pro I/O-Pin**. Die ursprüngliche Angabe „200 mA pro Pin“ wurde korrigiert. `5 V · 0,020 A = 0,10 W` dient als vereinfachter Leistungsvergleich und erlaubt keinen direkten Motoranschluss an Signalpins.
+- Der TIP120-Motorzweig zeigt Basiswiderstand, Motorversorgung, gemeinsamen GND und Freilaufdiode: **Kathode an Plus, Anode an Kollektor**. Bauteilwerte und Versorgung werden passend zum konkreten Schulmotor festgelegt. Unvollständige oder direkte GPIO-Motorschaltungen sind aus den neuen Folienschülerfassungen entfernt. `analogWrite(...,128)` bedeutet etwa halbe Einschaltzeit, nicht zwingend halbe Drehzahl.
+- Bei Getrieben gilt `i = n1/n2 = z2/z1`; Durchmesserverhältnisse beziehen sich auf Teilkreise. Mehrere Stufen werden multipliziert. Schneckenübersetzung berücksichtigt die Gangzahl; Selbsthemmung ist keine allgemeine Eigenschaft jedes Schneckengetriebes.
+- Website, Mittelwertprüfer und PDF verwenden dieselbe neue Messreihe aus **Statik V4**. Sie ersetzt die früheren Werte ausdrücklich durch die neue bereitgestellte Quelle. Die Mittelwerte der Querschnittsreihen lauten **9,90; 19,97; 27,00 und 39,93 N**. Die Längenreihe bleibt bei 7,89; 7,21; 7,72 und 8,13 N.
+- Das Balkenmodell `w ∝ l³ / (b · h³)` nennt seine Bedingungen: gleicher Werkstoff, gleiche Last und passende gleiche Auflagerung. Zug unten und Druck oben beziehen sich auf den dargestellten, nach unten durchgebogenen Balken auf Endauflagern.
+- Die beiden Rezeptmengen wurden originalgetreu übernommen und auf ein Fünftel skaliert. Ein Vergleich der Originalrezepte ändert mehrere Zutaten gleichzeitig; ein gezielter Optimierungsversuch ändert deshalb nur eine Einflussgröße.
+- Quizfragen wurden an uneindeutigen Stellen präzisiert: `Serial.println("Hallo")`, 100 % PWM bei 255, Reißkraft statt Material-Zugfestigkeit und eindeutige Randbedingungen bei Biegung.
 
 ## Dateien bearbeiten
 
-`course.js` enthält Kapitel, Erklärungstexte, Aufgaben, Hilfen, Vergleichslösungen und die Materialliste. `app.js` stellt den Lernpfad und die Übungen dar. `styles.css` enthält das responsive Layout. Alle Links zu eigenen Dateien sind relativ, damit die Seite unter einem GitHub-Projektpfad funktioniert.
+`course.js` enthält die bisherigen Grundinhalte. `course-extra.js` ergänzt und ordnet die neuen Inhalte und enthält die zwei Quizbanken. `app.js` rendert Heftaufträge, Hilfen, Modelle und Selbstchecks. `styles.css` enthält das responsive Layout. Die PDF-Schülerfassungen beruhen auf den bereitgestellten Unterrichtsmaterialien; einzelne fachliche Angaben sind korrigiert und begleitend erklärt. Die Originaluploads und die Lehrkraftlösungen werden nicht mitveröffentlicht.
 
-Die Originalmaterialien bleiben erhalten; die hier bereitgestellten PDFs sind Schülerfassungen beziehungsweise PDF-Exporte. Abbildungen behalten ihre Quelle im Unterrichtsmaterial. Daraus ergibt sich keine allgemeine Freigabe fremder Abbildungen für andere Veröffentlichungen.
+## Offizielle Arduino-Dokumentation
 
-Offizielle Arduino-Dokumentation:
-
+- https://store.arduino.cc/products/arduino-uno-rev3
+- https://docs.arduino.cc/resources/pinouts/A000066-full-pinout.pdf
 - https://docs.arduino.cc/built-in-examples/digital/InputPullupSerial/
 - https://support.arduino.cc/hc/en-us/articles/9350537961500-Use-PWM-output-with-Arduino
 - https://docs.arduino.cc/libraries/servo/
